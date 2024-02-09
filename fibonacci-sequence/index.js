@@ -27,6 +27,8 @@ function fibonacci2(n) {
 
 console.log(fibonacci2(20));
 
+// Big - O = O(n)
+
 // A sequência de Fibonacci é uma série de números onde cada número é a soma dos dois números
 //  anteriores. A sequência começa com 0 e 1, e os números subsequentes são gerados adicionando os doi
 //  s números anteriores. A sequência começa assim:
