@@ -16,4 +16,4 @@ end
 
 puts is_prime 100
 
-// O(sqrt(n))
+# O(sqrt(n))

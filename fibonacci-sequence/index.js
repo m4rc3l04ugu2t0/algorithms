@@ -25,7 +25,7 @@ function fibonacci2(n) {
     return fib;
 }
 
-console.log(fibonacci2(20));
+console.log(fibonacci2(5));
 
 // Big - O = O(n)
 
