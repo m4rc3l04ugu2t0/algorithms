@@ -1,5 +1,5 @@
 function isPrime(n) {
-    if ((n % 2 === 0 && n > 2) || n < 2) return false;
+    if ((n % 2 === 0) || n < 2) return false;
     let result = true;
     for (let i = 1; i < n - 1; i++) {
         if (n % (n - i) === 0) {
@@ -10,9 +10,9 @@ function isPrime(n) {
 
     return result;
 }
-// console.log(isPrime(1));
-// console.log(isPrime(5));
-// console.log(isPrime(4));
+console.log(isPrime(103));
+console.log(isPrime(5));
+console.log(isPrime(4));
 
 function isPrime2(n) {
     if (n < 2) {
@@ -28,8 +28,8 @@ function isPrime2(n) {
     return true;
 }
 
-console.log(isPrime2(1));
-console.log(isPrime2(5));
-console.log(isPrime2(4));
+// console.log(isPrime2(1));
+// console.log(isPrime2(5));
+// console.log(isPrime2(4));
 
 // O(sqrt(n))
