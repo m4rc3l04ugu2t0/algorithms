@@ -10,7 +10,7 @@ def factorialofNumber n
   factorial
 end
 
-puts factorialofNumber 0
+# puts factorialofNumber 0
 
 def factorialofNumber2 n
   if n == 0
@@ -20,4 +20,13 @@ def factorialofNumber2 n
   end
 end
 
-puts factorialofNumber2 5
+# puts factorialofNumber2 5
+
+
+def factorialofNumber3 n
+  return 1 if n == 0
+  n = n * factorialofNumber3(n - 1)
+end
+
+
+puts factorialofNumber3 3
