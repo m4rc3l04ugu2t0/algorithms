@@ -1,6 +1,6 @@
 use std::collections::HashMap;
 
-pub fn first_uniq_char(s: &str) -> i32 {
+pub fn _first_uniq_char(s: &str) -> i32 {
     let mut char_count: HashMap<char, u32> = HashMap::new();
 
     for c in s.chars() {
